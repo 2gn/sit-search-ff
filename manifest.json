@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Search on SIT Search",
+  "description": "Add a context menu option to search selection on SIT Search",
+  "version": "1.0",
+  "homepage_url": "https://github.com/2gn/sit-search-ff",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["contextMenus"]
+}
