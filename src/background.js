@@ -1,7 +1,7 @@
 browser.contextMenus.create(
   {
     id: "search-on-sit-search",
-    title: "Search on SIT Search",
+    title: `Search on SIT Search`,
     contexts: ["selection"],
   },
   () => void browser.runtime.lastError,

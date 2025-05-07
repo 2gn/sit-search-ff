@@ -8,5 +8,8 @@
     "scripts": ["background.js"],
     "persistent": false
   },
+  "browser_specific_settings": {
+    "gecko": { "id": "{9564f508-c7ef-4398-bde2-3a1cf10576e3}" }
+  },
   "permissions": ["contextMenus"]
 }
